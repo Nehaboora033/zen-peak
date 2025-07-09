@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.team .swiper-slide.swiper-slide-active {
+  margin-top: 122px;
+}
+
+.team .swiper-slide.swiper-slide-next {
+  margin-top: 58px;
+}

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const NormalText = () => {
+const NormalText = ({NormalText,className=''}) => {
   return (
-    <div>NormalText</div>
+    <div className={`${className} font-[400] text-base`}>{ NormalText}</div>
   )
 }
 
