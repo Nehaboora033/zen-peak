@@ -5,12 +5,14 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import { Our_Team } from '../utils/helper';
 import NormalText from './common/NormalText';
+import LittleBold from './common/LittleBold';
+import { AddOn, LeftArrow, RightArrow } from '../utils/icon';
 
 
 const Ourteam = () => {
   return (
     <div className='team bg-[#F7F3F0] bg-no-repeat bg-center' style={{ backgroundImage: `url(${backgroundImage}` }} >
-      <div className='max-w-[1140px] mx-auto '>
+      <div className='max-w-[1140px] mx-auto mb-[185px]'>
         <SubHeading className='text-[#5A5656]' StartItalicText={'Meet'} EndItalicText={'Team'} BoldText={'With Our'} />
         <Swiper
           slidesPerView={3}
@@ -19,15 +21,22 @@ const Ourteam = () => {
         >
           {Our_Team.map((item, index) => (
             <SwiperSlide key={index}>
-              <div>
+              <div className='relative'>
                 <img src={item.Image} alt="profile" />
-                <NormalText NormalText={item.profession} className=''/>
-
+                <div className='flex items-center gap-3 absolute top-[14px] left-4'>
+                  <div className='w-[68px] h-[68px] bg-[#A68272] flex items-center justify-center'>
+                    <AddOn />
+                  </div>
+                  <NormalText className='font-medium text-white' NormalText={'SHOW BIO'} />
+                </div>
+                <LittleBold className='text-[#0C0F26] mt-4' LittleBoldText={'Jhone Doe'} />
+                <NormalText NormalText={item.profession} className='text-[#535363] mt-[5px]' />
 
               </div>
             </SwiperSlide>
           ))}
-
+          {/* <LeftArrow />
+          <RightArrow /> */}
         </Swiper>
       </div>
     </div>
