@@ -12,7 +12,7 @@ import { AddOn, LeftArrow, RightArrow } from '../utils/icon';
 const Ourteam = () => {
   return (
     <div className='team bg-[#F7F3F0] bg-no-repeat bg-center' style={{ backgroundImage: `url(${backgroundImage}` }} >
-      <div className='max-w-[1140px] mx-auto mb-[185px]'>
+      <div className='max-w-[1140px] mx-auto pb-[185px]'>
         <SubHeading className='text-[#5A5656]' StartItalicText={'Meet'} EndItalicText={'Team'} BoldText={'With Our'} />
         <Swiper
           slidesPerView={3}

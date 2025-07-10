@@ -1,4 +1,5 @@
 import './App.css'
+import Assetsallocation from './components/Assetsallocation'
 import Ourteam from './components/Ourteam'
 import Primary from './components/Primary'
 
@@ -6,8 +7,9 @@ import Primary from './components/Primary'
 function App() {
   return (
     <>
-      <Primary/>
-    <Ourteam/>
+      <Primary />
+      <Ourteam />
+      <Assetsallocation />
     </>
   )
 }
