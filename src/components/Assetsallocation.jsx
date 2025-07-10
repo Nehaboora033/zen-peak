@@ -2,11 +2,16 @@ import React from 'react'
 import SubHeading from './common/SubHeading'
 import Image from './../assets/webp/piechart.webp'
 import NormalText from './common/NormalText'
+import LeftImage from './../assets/webp/assetsallocation-bg-left-img.webp'
+import RightImage from './../assets/webp/assetsallocation-bg-right-img.webp'
 
 const Assetsallocation = () => {
   return (
-    <div className='bg-[#A68272] pt-[45px] pb-[64px]'>
-      <div className='max-w-[1140px] mx-auto px-3'>
+    <div className='bg-no-repeat pb-[139px] ' style={{
+      backgroundImage: `url(${LeftImage}) , url(${RightImage})`,
+      backgroundPosition: `left,right`,
+    }}  >
+      <div className='max-w-[1140px] mx-auto px-3 bg-[#A68272] pt-[45px] pb-[64px] rounded-2xl pl-[42px] pr-[19px]'>
         <div className='flex flex-wrap -mx-3'>
           <div className='w-1/2 px-3 '>
             <img src={Image} alt="image" className='' />
@@ -18,17 +23,14 @@ const Assetsallocation = () => {
             <div className='flex items-center gap-[15px] mt-[25px]'>
               <div className='bg-white w-[6px] h-[92px] rounded-[115px]'>
               </div>
-              <div> 
+              <div>
                 <SubHeading className='!text-xl text-[#EDE6E3]' BoldText={'Consectetur sagittis'} />
                 <NormalText className='text-[#EDE6E3] mt-[10px]' NormalText={'Fermentum praesent vel adipiscing eget dictum. Risus id tellus mauris lorem ornare titor a neque nullam libero nunc eget.'} />
               </div>
             </div>
           </div>
         </div>
-
       </div>
-
-
     </div>
   )
 }

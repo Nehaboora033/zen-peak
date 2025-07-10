@@ -4,7 +4,7 @@ import Image from '../assets/webp/circle.webp'
 import NormalText from './common/NormalText'
 const Primary = () => {
   return (
-    <div className='bg-[#A68272] pb-[62px] pt-[80px]'>
+    <div className='bg-[#A68272] pb-[62px] pt-[80px] mb-[64px]'>
       <div className='max-w-[1140px] mx-auto px-3 '>
         <div className='flex flex-wrap -mx-3 items-center '>
           <div className='w-1/2 px-3'>
