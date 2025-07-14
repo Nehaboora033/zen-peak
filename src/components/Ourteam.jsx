@@ -6,7 +6,7 @@ import 'swiper/css';
 import { Our_Team } from '../utils/helper';
 import NormalText from './common/NormalText';
 import LittleBold from './common/LittleBold';
-import { AddOn, LeftArrow, RightArrow } from '../utils/icon';
+import { AddOn } from '../utils/icon';
 
 
 const Ourteam = () => {
@@ -17,8 +17,7 @@ const Ourteam = () => {
         <Swiper
           slidesPerView={3}
           loop={false}
-          spaceBetween={24}
-        >
+          spaceBetween={24}>
           {Our_Team.map((item, index) => (
             <SwiperSlide key={index}>
               <div className='relative'>
@@ -31,12 +30,9 @@ const Ourteam = () => {
                 </div>
                 <LittleBold className='text-[#0C0F26] mt-4' LittleBoldText={'Jhone Doe'} />
                 <NormalText NormalText={item.profession} className='text-[#535363] mt-[5px]' />
-
               </div>
             </SwiperSlide>
           ))}
-          {/* <LeftArrow />
-          <RightArrow /> */}
         </Swiper>
       </div>
     </div>

@@ -1,15 +1,36 @@
 import './App.css'
 import Assetsallocation from './components/Assetsallocation'
+import Footer from './components/common/Footer'
+import Cryptoworld from './components/Cryptoworld'
+import Herosection from './components/Herosection'
 import Ourteam from './components/Ourteam'
+import Portfolio from './components/Portfolio'
 import Primary from './components/Primary'
+
 
 
 function App() {
   return (
     <>
-      <Primary />
-      <Ourteam />
-      <Assetsallocation />
+      <div id='home'>
+        <Herosection />
+      </div>
+      <div id='about' >
+        <Primary />
+      </div>
+      <div id='team' >
+        <Ourteam />
+      </div>
+      <div id='portfolio'>
+        <Portfolio />
+      </div>
+      <div id='allocation'> 
+        <Assetsallocation />
+      </div>
+      <div id='contact'>
+        <Cryptoworld />
+      </div>
+        <Footer />
     </>
   )
 }
