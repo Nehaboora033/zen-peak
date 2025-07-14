@@ -7,7 +7,7 @@ import LittleBold from './common/LittleBold'
 
 const Cryptoworld = () => {
   return (
-    <div className='pb-[170px] bg-no-repeat bg-center bg-contain  bg-[#F7F3F0]' style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className='pb-[170px] pt-[139px] bg-no-repeat bg-center bg-contain  bg-[#F7F3F0]' style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className='max-w-[1140px] mx-auto px-3'>
         <SubHeading className='max-w-[735px] w-full mx-auto text-[#5A5656] text-center' StartItalicText={'Let’s together'} EndItalicText={'great!'} BoldText={'make the crypto world'} />
         <NormalText className='text-[#6E6D6C] max-w-[675px] text-center mx-auto mt-[15px]' NormalText={'Pretium id amet at iaculis sit orci enim. Fames in eget neque vitae iaculis diam. Malesuada adipiscing integer tempor natoque accumsan et.'} />
