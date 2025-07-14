@@ -18,16 +18,10 @@ const Ourteam = () => {
   return (
     <div
       className='team bg-[#F7F3F0] bg-no-repeat bg-center'
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
+      style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className='max-w-[1140px] mx-auto pb-[185px]'>
-        <SubHeading
-          className='text-[#5A5656]'
-          StartItalicText='Meet'
-          EndItalicText='Team'
-          BoldText='With Our'
-        />
-
+        <SubHeading className='text-[#5A5656]' StartItalicText='Meet' EndItalicText='Team' BoldText='With Our' />
+        
         <Swiper slidesPerView={3} spaceBetween={24} loop={false}>
           {Our_Team.map((item, index) => (
             <SwiperSlide key={index}>
@@ -39,14 +33,12 @@ const Ourteam = () => {
                   {/* Toggle button over image */}
                   <div
                     className='flex items-center gap-3 absolute top-[14px] left-4 cursor-pointer z-20'
-                    onClick={() => toggleBio(index)}
-                  >
+                    onClick={() => toggleBio(index)} >
                     <div
                       className={`w-[68px] h-[68px] flex items-center justify-center ${activeBioIndex === index
                         ? 'border-[3px] border-[#E4D9D5] bg-transparent rounded-[5px]'
                         : 'bg-[#A68272]'
-                        }`}
-                    >
+                        }`}  >
                       {activeBioIndex === index ? <Subtract /> : <AddOn />}
                     </div>
                     <NormalText
@@ -69,7 +61,6 @@ const Ourteam = () => {
                     </div>
                   )}
                 </div>
-
                 {/* === Name & Role below image (always visible) === */}
                 <div className='mt-4'>
                   <LittleBold className='text-[#0C0F26]' LittleBoldText={item.name || 'Jhone Doe'} />
