@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className='bg-[#323232] pt-[50px]'>
       <div className='max-w-[1140px] mx-auto px-3'>
-        <img src={logo} alt="image" className='max-w-[254px] max-h-[61  px] block mx-auto' />
+        <img src={logo} alt="image" className=' max-w-[] sm:max-w-[254px] max-h-[61  px] block mx-auto' />
         <NormalText className='text-[#C1C1C1] text-center mt-4 max-w-[401px] mx-auto' NormalText={'Pulvinar scelerisque viverra at donec nunc orci ullam corper penatibus crasigula. '} />
 
         <div className='flex gap-5 mt-[25px] mx-auto max-w-[507px]'>

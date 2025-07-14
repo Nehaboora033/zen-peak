@@ -32,7 +32,7 @@ function App() {
       <div id='contact'>
         <Cryptoworld />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
