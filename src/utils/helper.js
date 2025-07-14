@@ -9,6 +9,11 @@ import Profit from './../assets/png/profit.png'
 import Risk from './../assets/png/risk.png'
 import Money from './../assets/png/money.png'
 import { Metagram, Telegram, Twitter } from './icon'
+import bittorent from './../assets/png/Bittorent.png'
+import brand from './../assets/png/brand.png'
+import classic from './../assets/png/classic.png'
+import crypto from './../assets/png/crypto.png'
+import wave from './../assets/png/wave.png'
 
 export const Our_Team = [
     {
@@ -144,5 +149,50 @@ export const Footer_Links = [
     {
         name: 'Contact us',
         link: '#contact',
+    },
+]
+
+export const company = [
+    {
+        image: bittorent,
+        alt: 'bittorent',
+    },
+    {
+        image: brand,
+        alt: 'brand',
+
+    },
+    {
+        image: classic,
+        alt: 'classic',
+    },
+    {
+        image: wave,
+        alt: 'wave',
+    },
+    {
+        image: crypto,
+        alt: 'crypto',
+    },
+    {
+        image: bittorent,
+        alt: 'bittorent',
+    },
+    {
+        image: brand,
+        alt: 'brand',
+
+    },
+    {
+        image: classic,
+        alt: 'classic',
+    },
+    {
+        image: wave,
+        alt: 'wave',
+    },
+    {
+        image: crypto,
+        alt: 'crypto',
     },
 ]
