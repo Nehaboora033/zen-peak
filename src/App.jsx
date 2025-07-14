@@ -20,18 +20,18 @@ function App() {
         <Primary />
       </div>
         <Companies />
-      <div id='team' >
+      {/* <div id='team' >
         <Ourteam />
-      </div>
-      {/* <div id='portfolio'>
+      </div> */}
+      <div id='portfolio'>
         <Portfolio />
-      </div> */}
-      {/* <div id='allocation'>
+      </div>
+      <div id='allocation'>
         <Assetsallocation />
-      </div> */}
-      {/* <div id='contact'>
+      </div>
+      <div id='contact'>
         <Cryptoworld />
-      </div> */}
+      </div>
       {/* <Footer /> */}
     </>
   )
