@@ -12,7 +12,7 @@ const Cryptoworld = () => {
         <SubHeading className='max-w-[735px] w-full mx-auto text-[#5A5656] text-center' StartItalicText={'Let’s together'} EndItalicText={'great!'} BoldText={'make the crypto world'} />
         <NormalText className='text-[#6E6D6C] max-w-[675px] text-center mx-auto mt-[15px]' NormalText={'Pretium id amet at iaculis sit orci enim. Fames in eget neque vitae iaculis diam. Malesuada adipiscing integer tempor natoque accumsan et.'} />
         <div className='max-w-[862px] px-3 mx-auto'>
-          <div className='max-w-[838px] max-[620px]:justify-center max-[620px]:flex mx-auto md:px-[42px] md:py-[38px] mt-[93px] md:border-[3px] min-[620px]:bg-[#FFFFFF] md:border-[#A68272] rounded-[17px] '>
+          <div className='max-w-[838px] max-[620px]:justify-center max-[620px]:flex mx-auto md:px-[42px] md:py-[38px] mt-[93px] md:border-[3px] md:bg-[#FFFFFF] md:border-[#A68272] rounded-[17px] '>
             <div className='grid min-[620px]:grid-cols-2  gap-x-[25px] gap-y-[25px] md:gap-y-[35px]'>
               {Crypto_World_Data.map((item, index) => (
                 <div key={index} className='flex gap-[18px] max-md:bg-[#FFFFFF] md:gap-[23px] items-center py-4 px-[16px] md:py-5 md:px-[23px] border border-[#000000] rounded-[16px] max-w-[365px] '>
