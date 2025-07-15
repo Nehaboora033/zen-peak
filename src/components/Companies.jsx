@@ -7,7 +7,7 @@ import 'swiper/css';
 
 const Companies = () => {
   return (
-    <div className='pt-[64px] pb-[162px] bg-[#F7F3F0]'>
+    <div className='pb-[64px] pt-[64px] sm:pb-[162px] bg-[#F7F3F0]'>
       <Swiper
         modules={[Autoplay]}
         spaceBetween={30}

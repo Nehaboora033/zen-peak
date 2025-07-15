@@ -7,7 +7,7 @@ import RightImage from './../assets/webp/assetsallocation-bg-right-img.webp'
 
 const Assetsallocation = () => {
   return (
-    <div className='bg-no-repeat pt-[218px] bg-[#F7F3F0] ' style={{
+    <div className='bg-no-repeat pt-[97px] sm:pt-[218px] bg-[#F7F3F0] ' style={{
       backgroundImage: `url(${LeftImage}) , url(${RightImage})`,
       backgroundPosition: `left,right`,
     }}>

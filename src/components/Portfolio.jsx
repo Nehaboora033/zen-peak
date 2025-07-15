@@ -8,7 +8,7 @@ import backgroundImage from './../assets/webp/portfolio-bg.webp'
 const Portfolio = () => {
   const [isOpen, SetIsOpen] = useState(0);
   return (
-    <div className='bg-[#F7F3F0]  bg-no-repeat bg-center bg-contain' style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className='bg-[#F7F3F0]  bg-no-repeat bg-bottom bg-contain' style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className='max-w-[1140px] px-3 mx-auto'>
         <SubHeading className='text-[#5A5656] max-w-[738px] text-center mx-auto ' StartItalicText={'Invest'} EndItalicText={'Portfolio'} BoldText={'cryptocurrency'} />
           <div className='border-[3px] mt-[44px] rounded-[17px] border-[#A68272] py-[10px] px-[13px] sm:py-[21px] sm:px-[25px] bg-[#DFBCA6] max-w-[636px] mx-auto'>

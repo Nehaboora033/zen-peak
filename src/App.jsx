@@ -20,9 +20,9 @@ function App() {
         <Primary />
       </div>
         <Companies />
-      {/* <div id='team' >
+      <div id='team' >
         <Ourteam />
-      </div> */}
+      </div>
       <div id='portfolio'>
         <Portfolio />
       </div>
